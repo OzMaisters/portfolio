@@ -405,6 +405,9 @@
 		.banner h1{
 			font-size:3em;
 		}
+		.banner h2{
+			font-size:2em;
+		}
 	}
 
 	@media (max-width: 840px) {
