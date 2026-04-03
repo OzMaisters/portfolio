@@ -402,10 +402,10 @@
 			grid-template-columns: repeat(2, minmax(0, 1fr));
 		}
 		
-		.banner h1{
+		h1{
 			font-size:3em;
 		}
-		.banner h2{
+		h2{
 			font-size:2em;
 		}
 	}
