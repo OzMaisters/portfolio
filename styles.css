@@ -204,11 +204,11 @@
 	
 	#filter-cont{
 		text-align:right;
-		margin:1em;
+		margin:1em 0;
 		display: inline-block;
 		background-color: var(--color-dark-grey);
 		border-radius: 10em;
-		padding: 0.2em;
+		padding: 0.5em;
 	}
 	
 	
@@ -411,6 +411,16 @@
 	}
 
 	@media (max-width: 840px) {
+		
+		.wrapper, .menu{
+			margin-left: 5%;
+			margin-right: 5%;
+		}
+		
+		.contact-wrap, .skill-wrap{
+			padding:0;
+		}
+		
 		.project-cont, .skill-cont {
 				grid-template-columns: repeat(1, minmax(0, 1fr));
 		}
@@ -423,6 +433,12 @@
 			float: none;
 			display: inline-block;
 			padding-top: 1em;
+			font-size: 0.8em;
+		}
+		
+		.filter-button {
+			padding:0.5em;
+			font-size: 0.8em;
 		}
 	}
 
